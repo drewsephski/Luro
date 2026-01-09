@@ -17,8 +17,8 @@ interface MetadataProps {
 }
 
 export const generateMetadata = ({
-    title = `${process.env.NEXT_PUBLIC_APP_NAME} - AI Voice Agent Platform (Alternative to VAPI)`,
-    description = "Build and deploy AI-powered voice agents with advanced speech recognition and natural language processing. An alternative to VAPI with comprehensive voice AI integration for seamless conversational experiences",
+    title = "The AI Tool Directory",
+    description = "Discover, compare, and integrate the best AI tools. Luro AI is a comprehensive directory for developers and enthusiasts.",
     image = "/thumbnail.png",
     icons = [
         {
@@ -36,12 +36,12 @@ export const generateMetadata = ({
     ],
     noIndex = false,
     keywords = [
-        "voice AI",
-        "voice agents",
-        "speech recognition",
-        "natural language processing",
-        "conversational AI",
-        "voice applications"
+        "AI tools",
+        "AI directory",
+        "LLMs",
+        "Generative AI",
+        "Machine Learning",
+        "Developer Tools"
     ],
     author = process.env.NEXT_PUBLIC_AUTHOR_NAME,
     twitterHandle = "@yourtwitterhandle",
@@ -51,7 +51,7 @@ export const generateMetadata = ({
     publishedTime,
     modifiedTime
 }: MetadataProps = {}): Metadata => {
-    const metadataBase = new URL(process.env.NEXT_PUBLIC_APP_URL || "https://voiceflow.vercel.app");
+    const metadataBase = new URL(process.env.NEXT_PUBLIC_APP_URL || "https://luro-ai.vercel.app");
     const imageUrl = image ? new URL(image, metadataBase).toString() : null;
 
     return {
