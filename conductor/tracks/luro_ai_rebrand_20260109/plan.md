@@ -1,7 +1,7 @@
 # Plan: Luro AI Rebrand & Core Directory
 
 ## Phase 1: Project Cleanup & Rebranding
-- [ ] Task: Update `package.json` metadata (name, version, description) to reflect Luro AI.
+- [x] Task: Update package.json metadata (name, version, description) to reflect Luro AI. 5e94198
 - [ ] Task: Update root `layout.tsx` metadata (title: "Luro AI - The AI Tool Directory", description).
 - [ ] Task: Generate and replace Logo and Favicon assets in `public/`.
 - [ ] Task: Update `globals.css` to ensure the "Luro" color palette (Deep background, Purple accents) is consistent.
