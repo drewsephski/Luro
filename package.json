@@ -1,5 +1,6 @@
 {
-  "name": "voiceflow",
+  "name": "luro-ai",
+  "description": "The AI Tool Directory",
   "version": "0.1.0",
   "private": true,
   "scripts": {
