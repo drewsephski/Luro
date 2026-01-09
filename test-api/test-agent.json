@@ -1,0 +1,9 @@
+{
+    "name": "Test Agent",
+    "description": "A test agent",
+    "personality": "friendly",
+    "voiceStyle": "warm",
+    "expertise": "general",
+    "greeting": "Hello!",
+    "tone": "helpful"
+}

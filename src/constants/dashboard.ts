@@ -16,7 +16,7 @@ export const ANALYTICS_DATA = [
 export const ACTIVITIES = [
     { id: 1, text: 'New campaign "Summer Sale" created', time: '2 hours ago' },
     { id: 2, text: 'Post scheduled for Instagram', time: '4 hours ago' },
-    { id: 3, text: 'Facebook engagement up by 23%', time: '6 hours ago' },
+    { id: 3, text: 'Voice agent response time improved by 15%', time: '6 hours ago' },
 ];
 
 export const RECENT_SALES = [

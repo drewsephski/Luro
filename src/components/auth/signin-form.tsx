@@ -197,10 +197,10 @@ const SignInForm = () => {
                 </div>
                 <h1 className="text-2xl text-center mt-4">
                     {isEmailOpen
-                        ? "Login to Luro"
+                        ? "Login to VoiceFlow"
                         : isCodeSent
                             ? "Verify your email"
-                            : "Welcome to Luro"}
+                            : "Welcome to VoiceFlow"}
                 </h1>
                 <p className="text-sm text-muted-foreground mt-2">
                     {isEmailOpen

@@ -18,7 +18,7 @@ const Menu = () => {
         <NavigationMenu>
             <NavigationMenuList>
                 <NavigationMenuItem>
-                    <Link href="/docs" legacyBehavior passHref>
+                    <Link href="/auth/signup" legacyBehavior passHref>
                         <NavigationMenuLink className="h-10 px-4 py-2 text-sm font-normal rounded-md text-muted-foreground hover:text-foreground w-max hover:bg-none">
                             How it works
                         </NavigationMenuLink>
@@ -33,40 +33,40 @@ const Menu = () => {
                             <li className="row-span-3">
                                 <NavigationMenuLink asChild>
                                     <Link
-                                        href="/"
+                                        href="/auth/signup"
                                         className="flex flex-col justify-end w-full h-full p-4 no-underline rounded-lg outline-none select-none bg-gradient-to-tr from-accent to-accent/50 focus:shadow-md"
                                     >
                                         <Icons.icon className="w-6 h-6" />
                                         <div className="my-2 text-lg font-normal">
-                                            Luro AI
+                                            VoiceFlow AI
                                         </div>
                                         <p className="text-sm text-muted-foreground">
-                                            Your ultimate social media management tool
+                                            Your ultimate voice agent development platform
                                         </p>
                                     </Link>
                                 </NavigationMenuLink>
                             </li>
-                            <Item title="Content Calendar" href="/features/content-calendar" icon={<CalendarRangeIcon className="w-5 h-5" />}>
-                                Plan and visualize your content strategy.
+                            <Item title="Voice Agent Builder" href="/auth/signup" icon={<CalendarRangeIcon className="w-5 h-5" />}>
+                                Design and visualize your voice agent conversation flows.
                             </Item>
-                            <Item title="Hashtag Manager" href="/features/hashtag-manager" icon={<HashIcon className="w-5 h-5" />}>
-                                Research and track trending hashtags.
+                            <Item title="Voice Synthesis" href="/auth/signup" icon={<HashIcon className="w-5 h-5" />}>
+                                Generate and customize natural voice responses.
                             </Item>
-                            <Item title="Competitor Analysis" href="/features/competitor-analysis" icon={<UsersIcon className="w-5 h-5" />}>
-                                Monitor and analyze competitor performance.
+                            <Item title="Voice Analytics" href="/auth/signup" icon={<UsersIcon className="w-5 h-5" />}>
+                                Monitor and analyze voice agent conversation performance.
                             </Item>
                         </ul>
                     </NavigationMenuContent>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <Link href="/pricing" legacyBehavior passHref>
+                    <Link href="/auth/signup" legacyBehavior passHref>
                         <NavigationMenuLink className="h-10 px-4 py-2 text-sm font-normal rounded-md text-muted-foreground hover:text-foreground w-max hover:bg-none">
                             Pricing
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <Link href="/integrations" legacyBehavior passHref>
+                    <Link href="/auth/signup" legacyBehavior passHref>
                         <NavigationMenuLink className="h-10 px-4 py-2 text-sm font-normal rounded-md text-muted-foreground hover:text-foreground w-max hover:bg-none">
                             Integrations
                         </NavigationMenuLink>
@@ -78,10 +78,10 @@ const Menu = () => {
                     </NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <ul className="grid w-[400px] gap-3 p-4 md:w-[400px] md:grid-cols-2 lg:w-[500px] xl:w-[500px]">
-                            <Item title="Blog" href="/resources/blog" icon={<Newspaper className="w-5 h-5" />}>
+                            <Item title="Blog" href="/auth/signup" icon={<Newspaper className="w-5 h-5" />}>
                                 Read our latest articles and updates.
                             </Item>
-                            <Item title="Support" href="/resources/support" icon={<CircleHelp className="w-5 h-5" />}>
+                            <Item title="Support" href="/auth/signup" icon={<CircleHelp className="w-5 h-5" />}>
                                 Get help with any issues you may have.
                             </Item>
                         </ul>

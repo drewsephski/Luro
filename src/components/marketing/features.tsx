@@ -17,7 +17,7 @@ const Features = () => {
                         Create content faster <br /> and smarter
                     </h2>
                     <p className="text-base md:text-lg text-center text-accent-foreground/80 mt-6">
-                        Transform your social media strategy with Luro AI&apos;s cutting-edge features, designed to optimize your content creation and engagement like never before.
+                        Transform your voice AI development with VoiceFlow AI&apos;s cutting-edge features, designed to optimize your voice agent creation and deployment like never before.
                     </p>
                 </div>
             </Container>
@@ -43,7 +43,7 @@ const Features = () => {
                                             Get advanced analytics
                                         </h4>
                                         <p className="text-sm md:text-base mt-2 text-muted-foreground">
-                                            Track your performance with detailed analytics and optimize to get better results.
+                                            Monitor your voice agents with detailed analytics and optimize for better conversations.
                                         </p>
                                     </div>
                                 </div>
@@ -63,7 +63,7 @@ const Features = () => {
                                             Content ideation
                                         </h4>
                                         <p className="text-sm md:text-base mt-2 text-muted-foreground">
-                                            Generate ideas for your content with our AI-powered tools to create engaging posts in seconds.
+                                            Generate conversation flows for your voice agents with our AI-powered tools to create engaging interactions in seconds.
                                         </p>
                                     </div>
                                 </div>
@@ -73,7 +73,7 @@ const Features = () => {
                                     <div className="bento-card w-full relative items-center justify-center">
                                         <div className="w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                                             <p className="text-base text-muted-foreground text-justify [mask-image:radial-gradient(50%_50%_at_50%_50%,#BAB3FF_0%,rgba(186,179,255,0)_90.69%)]">
-                                                We use AI to help you create content that resonates with your audience. Our tools are designed to optimize your content creation and engagement like never before. Transform your social media strategy with Luro AI&apos;s cutting-edge features. Reach your audience with the right message at the right time. Create content faster and smarter with Luro AI. Transform your social media strategy with Luro AI&apos;s cutting-edge features. Create content faster and smarter with Luro AI. Transform your social media strategy with Luro AI&apos;s cutting-edge features. Create content faster and smarter with Luro AI.
+                                                We use AI to help you create voice agents that resonate with your users. Our tools are designed to optimize your voice agent creation and deployment like never before. Transform your voice AI development with VoiceFlow AI&apos;s cutting-edge features. Reach your users with the right voice experience at the right time. Create voice agents faster and smarter with VoiceFlow AI. Transform your voice AI development with VoiceFlow AI&apos;s cutting-edge features. Create voice agents faster and smarter with VoiceFlow AI. Transform your voice AI development with VoiceFlow AI&apos;s cutting-edge features. Create voice agents faster and smarter with VoiceFlow AI.
                                             </p>
                                         </div>
                                         <div className="w-full h-16 relative">
@@ -101,7 +101,7 @@ const Features = () => {
                                             Seamless integrations
                                         </h4>
                                         <p className="text-sm md:text-base mt-2 text-muted-foreground">
-                                            Connect your favorite tools and platforms to streamline your workflow and save time.
+                                            Connect your favorite tools and platforms to streamline your voice agent workflow and save time.
                                         </p>
                                     </div>
                                     <div className="w-full h-28 relative">
@@ -124,7 +124,7 @@ const Features = () => {
                                             Image generation with AI
                                         </h4>
                                         <p className="text-sm md:text-base mt-2 text-muted-foreground">
-                                            Create stunning images with AI-powered tools in seconds.
+                                            Generate natural voice responses with AI-powered tools in seconds.
                                         </p>
                                     </div>
                                 </div>
@@ -139,7 +139,7 @@ const Features = () => {
                                             Hashtags suggestions
                                         </h4>
                                         <p className="text-sm md:text-base mt-2 text-muted-foreground">
-                                            Get hashtag suggestions based on your content and audience to increase your reach and engagement.
+                                            Get conversation suggestions based on your use case and users to improve your voice agent performance.
                                         </p>
                                     </div>
                                 </div>

@@ -6,12 +6,12 @@ export const PERKS = [
     {
         icon: ZapIcon,
         title: "Fast and Efficient",
-        description: "Experience quick and seamless content creation with our optimized AI tools."
+        description: "Experience quick and seamless voice agent creation with our optimized AI tools."
     },
     {
         icon: ChartSplineIcon,
         title: "Insightful Analytics",
-        description: "Gain valuable insights and analytics to enhance your social media strategy."
+        description: "Gain valuable insights and analytics to enhance your voice agent conversations."
     },
     {
         icon: LifeBuoyIcon,
@@ -21,7 +21,7 @@ export const PERKS = [
     {
         icon: PaletteIcon,
         title: "Customizable Solutions",
-        description: "Tailor the tools and features to fit your unique social media needs."
+        description: "Tailor the tools and features to fit your unique voice agent requirements."
     },
     {
         icon: ShieldCheckIcon,
@@ -31,6 +31,6 @@ export const PERKS = [
     {
         icon: WaypointsIcon,
         title: "Seamless Integration",
-        description: "Easily integrate with your existing social media platforms and tools."
+        description: "Easily integrate with your existing applications and services."
     },
 ];

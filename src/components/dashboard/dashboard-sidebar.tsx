@@ -57,7 +57,7 @@ const DashboardSidebar = () => {
                                         href={link.href}
                                         className={buttonVariants({
                                             variant: "ghost",
-                                            className: isActive ? "bg-muted text-primary w-full !justify-start" : "text-foreground/70 w-full !justify-start",
+                                            className: isActive ? "bg-muted/20 w-full !justify-start" : "text-foreground/70 w-full !justify-start",
                                         })}
                                     >
                                         <link.icon strokeWidth={2} className="size-[18px] mr-1.5" />
@@ -74,7 +74,7 @@ const DashboardSidebar = () => {
                             <Button
                                 variant="ghost"
                                 onClick={handleLogout}
-                                className="w-full justify-start"
+                                className="w-full justify-start bg-muted/20"
                             >
                                 <LogOutIcon className="size-4 mr-1.5" />
                                 Logout

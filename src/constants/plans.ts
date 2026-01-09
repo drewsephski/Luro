@@ -14,39 +14,39 @@ export const PLANS: PLAN[] = [
     {
         id: "free",
         title: "Free",
-        desc: "Get started with essential tools for social media content creation",
+        desc: "Get started with essential tools for voice agent development",
         monthlyPrice: 0,
         yearlyPrice: 0,
         buttonText: "Get Started",
         features: [
-            "Basic AI content generation",
-            "4 social media integrations",
+            "Basic voice agent creation",
+            "4 API integrations",
             "Community support",
-            "1 project limit",
-            "Standard analytics",
-            "Basic image generation"
+            "1 agent limit",
+            "Standard conversation analytics",
+            "Basic voice synthesis"
         ],
-        link: "https://stripe.com/free-plan-link"
+        link: "/auth/signup"
     },
     {
         id: "pro",
         title: "Pro",
-        desc: "Unlock advance features for enhanced content and strategy",
+        desc: "Unlock advanced features for enhanced voice agent capabilities",
         monthlyPrice: 10,
         yearlyPrice: 120,
         badge: "Most Popular",
         buttonText: "Upgrade to Pro",
         features: [
-            "Advanced AI content generation",
-            "10 social media integrations",
+            "Advanced voice agent creation",
+            "10 API integrations",
             "Priority email support",
-            "10 project limit",
-            "Enhanced analytics & insights",
-            "Pro model image generation",
+            "10 agent limit",
+            "Enhanced conversation analytics & insights",
+            "Pro voice synthesis",
             "Team collaboration tools",
-            "Custom branding options"
+            "Custom voice options"
         ],
-        link: "https://stripe.com/pro-plan-link"
+        link: "/auth/signup"
     },
     {
         id: "enterprise",
@@ -57,15 +57,15 @@ export const PLANS: PLAN[] = [
         badge: "Contact Sales",
         buttonText: "Upgrade to Enterprise",
         features: [
-            "Unlimited AI content generation",
-            "All social media integrations",
+            "Unlimited voice agent creation",
+            "All API integrations",
             "Dedicated account manager",
-            "Unlimited projects",
-            "Custom analytics & reporting",
+            "Unlimited agents",
+            "Custom conversation analytics & reporting",
             "Enterprise-grade security",
             "Free updates",
             // "24/7 priority support"
         ],
-        link: "https://stripe.com/enterprise-plan-link"
+        link: "/auth/signup"
     }
 ];
