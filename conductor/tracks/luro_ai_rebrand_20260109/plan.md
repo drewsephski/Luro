@@ -3,7 +3,7 @@
 ## Phase 1: Project Cleanup & Rebranding
 - [x] Task: Update package.json metadata (name, version, description) to reflect Luro AI. 5e94198
 - [x] Task: Update root `layout.tsx` metadata (title: "Luro AI - The AI Tool Directory", description). b450f6c
-- [ ] Task: Generate and replace Logo and Favicon assets in `public/`.
+- [~] Task: Generate and replace Logo and Favicon assets in `public/`.
 - [ ] Task: Update `globals.css` to ensure the "Luro" color palette (Deep background, Purple accents) is consistent.
 - [ ] Task: Clean up `app/(main)` to remove VoiceFlow specific dashboards, keeping a clean slate for the directory structure. (Preserve `components/ui`).
 - [ ] Task: Conductor - User Manual Verification 'Project Cleanup & Rebranding' (Protocol in workflow.md)
